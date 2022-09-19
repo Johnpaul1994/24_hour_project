@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #007af3;
+}
+
+body {
+    background: #F2F2F2;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar {
+background: white;
+padding: 1em;
+
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;   
+
+    span{
+        color: #007af3;
+    }
+}
+nav {
+    display: none;
+}
+
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
+.mobile-menu {
+cursor: pointer;
+}
+}
+a {
+    color: #444444; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+    text-align: center;
+}
